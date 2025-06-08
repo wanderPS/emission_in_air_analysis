@@ -16,10 +16,9 @@
 
 ## Технологии
 - **Язык программирования**: Python
-- **Библиотеки**: pandas, sklearn, seaborn, matplotlib, plotly, geopandas
+- **Библиотеки**: pandas, sklearn (KMeans), seaborn, matplotlib, plotly, geopandas
 - **Инструменты**: Microsoft Excel
-- **Машинное обучение**: KMeans, StandardScaler
-- **Статистика**: Kruskal-Wallis test
+
 
 ## Результаты
 - Выделено три кластера регионов по уровню выбросов: низкие, средние и высокие.
