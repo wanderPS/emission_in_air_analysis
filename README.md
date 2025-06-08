@@ -30,9 +30,9 @@
   - `data_bs.xlsx`: выбросы по регионам и отраслям (синтетический датасет).
   - `russia_regions.geojson`: геоданные регионов России.
 - **Визуализации**:
-  - Тепловая карта: [cluster_comparison_heatmap.png](https://github.com/wanderPS/emission_in_air_analysis/blob/main/plots/cluster_comparison_heatmap.html)
-  - Географическая карта: [map_dominant_industry_numbered.png](https://github.com/wanderPS/emission_in_air_analysis/blob/main/plots/map_dominant_industry_numbered.png)
-  - Sankey-диаграмма: [sankey_diagram.html](https://github.com/wanderPS/emission_in_air_analysis/blob/main/plots/sankey_total_emissions.html)
+  - Тепловая карта: ![cluster_comparison_heatmap.png](https://github.com/wanderPS/emission_in_air_analysis/blob/main/plots/cluster_comparison_heatmap.html)
+  - Географическая карта: ![map_dominant_industry_numbered.png](https://github.com/wanderPS/emission_in_air_analysis/blob/main/plots/map_dominant_industry_numbered.png)
+  - Sankey-диаграмма: ![sankey_diagram.html](https://github.com/wanderPS/emission_in_air_analysis/blob/main/plots/sankey_total_emissions.html)
 - **Скриншоты**:  
   ![Тепловая карта](screenshots/heatmap_example.png)  
   ![Карта регионов](screenshots/map_example.png)
