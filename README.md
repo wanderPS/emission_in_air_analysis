@@ -11,8 +11,7 @@
   - Интерактивные графики (plotly).
   - Географические карты доминирующих отраслей (geopandas).
   - Sankey-диаграммы для потоков выбросов.
-- Статистический анализ: применение теста Kruskal-Wallis для подтверждения различий между кластерами.
-- Формулировка рекомендаций для регионов с высокой экологической нагрузкой.
+  - Формулировка рекомендаций для регионов с высокой экологической нагрузкой.
 
 ## Технологии
 - **Язык программирования**: Python
@@ -22,20 +21,18 @@
 
 ## Результаты
 - Выделено три кластера регионов по уровню выбросов: низкие, средние и высокие.
-- Выявлены регионы с высокой экологической нагрузкой, включая Чукотский АО и Ямало-Ненецкий АО.
+- Выявлены регионы с высокой экологической нагрузкой.
 - Построены интерактивные визуализации и карты, демонстрирующие распределение выбросов и доминирующие отрасли.
-- Сформулированы рекомендации:
-  - Внедрение фильтров и современных технологий в металлургии.
-  - Переход на возобновляемые источники энергии в энергетике.
+- Сформулированы рекомендации.
 
 ## Примеры
 - **Входные данные**: 
   - `data_bs.xlsx`: выбросы по регионам и отраслям (синтетический датасет).
   - `russia_regions.geojson`: геоданные регионов России.
 - **Визуализации**:
-  - Тепловая карта: [cluster_comparison_heatmap.png](plots/cluster_comparison_heatmap.png)
-  - Географическая карта: [map_dominant_industry_numbered.png](plots/map_dominant_industry_numbered.png)
-  - Sankey-диаграмма: [sankey_diagram.html](plots/sankey_diagram.html)
+  - Тепловая карта: [cluster_comparison_heatmap.png](https://github.com/wanderPS/emission_in_air_analysis/blob/main/plots/cluster_comparison_heatmap.html)
+  - Географическая карта: [map_dominant_industry_numbered.png](https://github.com/wanderPS/emission_in_air_analysis/blob/main/plots/map_dominant_industry_numbered.png)
+  - Sankey-диаграмма: [sankey_diagram.html](https://github.com/wanderPS/emission_in_air_analysis/blob/main/plots/sankey_total_emissions.html)
 - **Скриншоты**:  
   ![Тепловая карта](screenshots/heatmap_example.png)  
   ![Карта регионов](screenshots/map_example.png)
