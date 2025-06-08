@@ -25,18 +25,15 @@
 - Построены интерактивные визуализации и карты, демонстрирующие распределение выбросов и доминирующие отрасли.
 - Сформулированы рекомендации.
 
-## Примеры
-- **Входные данные**: 
-  - `data_bs.xlsx`: выбросы по регионам и отраслям (синтетический датасет).
+## Данные
+- **Входные данные**:
+  - `BUL_MO_2024.xlsx`: данные о населении.
+  - `data_bs.xlsx`: выбросы по регионам и отраслям.
   - `russia_regions.geojson`: геоданные регионов России.
+    
+## Примеры
 - **Визуализации**:
-  - Тепловая карта: ![cluster_comparison_heatmap.png](https://github.com/wanderPS/emission_in_air_analysis/blob/main/plots/cluster_comparison_heatmap.html)
+  - Топ 10 индустрий: ![top10_industries_emissions.png](https://github.com/wanderPS/emission_in_air_analysis/blob/main/plots/top10_industries_emissions.png)
   - Географическая карта: ![map_dominant_industry_numbered.png](https://github.com/wanderPS/emission_in_air_analysis/blob/main/plots/map_dominant_industry_numbered.png)
-  - Sankey-диаграмма: ![sankey_diagram.html](https://github.com/wanderPS/emission_in_air_analysis/blob/main/plots/sankey_total_emissions.html)
-- **Скриншоты**:  
-  ![Тепловая карта](screenshots/heatmap_example.png)  
-  ![Карта регионов](screenshots/map_example.png)
-
-## Контакты
-- **GitHub**: [your_username](https://github.com/your_username)
-- **Портфолио**: [your_portfolio_link](https://your_username.github.io/portfolio)
+  - Кластеризация по типам выбросов: ![clustering_type_grid.png](https://github.com/wanderPS/emission_in_air_analysis/blob/main/plots/clustering_type_grid.png)
+  - Метод локтя: ![elbow_silhouette_total_emissions.png](https://github.com/wanderPS/emission_in_air_analysis/blob/main/plots/elbow_silhouette_total_emissions.png)
